@@ -202,5 +202,18 @@
         <icon>server</icon>
 		<pattern type='header'>x-gitsha</pattern>
     </server>
-
+    <server>
+        <name>CloudFlare</name>
+        <desc>Offers free and commercial, cloud-based services to help secure and accelerate websites.</desc>
+        <icon>cloudflare</icon>
+		<pattern type='header'>set-cookie: __cfduid</pattern>
+		<pattern type='header'>server: cloudflare</pattern>
+    </server>
+    <server>
+        <name>ColdFusion</name>
+        <desc>The Adobe ColdFusion application server enables the rapid development, deployment, and maintainance of rich and robust Internet applications.</desc>        
+		<pattern type='header'>CFGLOBALS</pattern>
+		<pattern type='header'>CFID</pattern>
+		<pattern type='header'>CFTOKEN</pattern>
+    </server>
 </servers>

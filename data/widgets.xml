@@ -117,6 +117,7 @@
         <desc>Put sharing to work with innovative sharing tools.</desc>
         <icon>sharethis</icon>
         <pattern>sharethis.com/button</pattern>
+        <pattern type='header'>__unam</pattern>
     </widget>
     <widget>
         <name>Delicious</name>

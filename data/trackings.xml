@@ -13,6 +13,8 @@
         <desc>Google Analytics lets you measure your advertising ROI.</desc>
         <icon>google-analytics</icon>
         <pattern type='inline'>google-analytics.com/</pattern>
+        <pattern type='header' regex='1'>__utm[a-z]</pattern>
+        
     </tracking>
     <tracking>
         <name>Google Webmaster Tools</name>
