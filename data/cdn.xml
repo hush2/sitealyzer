@@ -25,7 +25,7 @@
         <icon>edgecast</icon>
         <pattern>edgecastcdn.net/</pattern>
     </cdn>
-	<cdn>
+    <cdn>
         <name>Akamai</name>
         <desc>Akamai's industry expertise for Content Delivery, Application Performance, and Streaming Media help companies build a better web business.</desc>
         <icon>akamai</icon>
@@ -36,7 +36,7 @@
         <desc>A large distributed system of servers deployed in multiple data centers in the Internet.</desc>
         <icon>cdn</icon>
         <pattern>/cdn.</pattern>
-        <pattern regex='1'>cdn.(com|net)()/</pattern>
+        <pattern regex="1">cdn.(com|net)()/</pattern>
     </cdn>
     <cdn>
         <name>Facebook CDN</name>
@@ -44,11 +44,10 @@
         <icon>cdn</icon>
         <pattern>fbcdn.net/</pattern>
     </cdn>
-	<cdn>
+    <cdn>
         <name>Amazon Web Services</name>
         <desc>Amazon Web Services (AWS) delivers a set of services that together form a reliable, scalable, and inexpensive computing platform "in the cloud".</desc>
         <icon>aws</icon>
         <pattern>amazonaws.com/</pattern>
     </cdn>
-
 </cdns>

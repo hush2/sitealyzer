@@ -1,22 +1,23 @@
+<?xml version="1.0"?>
 <widgets>
     <widget>
         <name>Facebook Like Button</name>
         <desc>The Like button lets a user share your content with friends on Facebook.</desc>
         <icon>facebook</icon>
         <pattern>facebook.com/plugins/like</pattern>
-        <pattern type='all'>&lt;fb:like</pattern>
+        <pattern type="all">&lt;fb:like</pattern>
     </widget>
     <widget>
         <name>Facebook Activity Feed</name>
         <desc>The Activity Feed plugin displays the most interesting recent activity taking place  on your site.</desc>
         <icon>facebook</icon>
-        <pattern type='all'>&lt;fb:activity</pattern>
+        <pattern type="all">&lt;fb:activity</pattern>
     </widget>
     <widget>
         <name>Facebook Login</name>
         <desc>Facebook is a social utility that connects people with friends and others who work , study and live around them.</desc>
         <icon>facebook</icon>
-        <pattern type='all'>&lt;fb:login</pattern>
+        <pattern type="all">&lt;fb:login</pattern>
     </widget>
     <widget>
         <name>Facebook Like Box</name>
@@ -53,33 +54,33 @@
         <desc>Recommend on Search, Share on Google+.</desc>
         <icon>plus1</icon>
         <pattern>plusone.js</pattern>
-        <pattern type='inline'>plusone.js</pattern>
-        <pattern type='all'>g:plusone:</pattern>
+        <pattern type="inline">plusone.js</pattern>
+        <pattern type="all">g:plusone:</pattern>
     </widget>
     <widget>
         <name>Google+ Platform</name>
         <desc>Google+ aims to make sharing on the web more like sharing in real life.</desc>
         <icon>google</icon>
         <pattern>plus.google.com</pattern>
-        <pattern type='link'>plus.google.com</pattern>
+        <pattern type="link">plus.google.com</pattern>
     </widget>
     <widget>
         <name>Google Bookmarks</name>
         <desc>Access your Google bookmarks from any computer With Google Bookmarks.</desc>
         <icon>google</icon>
         <pattern>google.com/bookmark</pattern>
-        </widget>
+    </widget>
     <widget>
         <name>Google Custom Search</name>
         <desc>Harness the power of Google to create a customized search experience for your own website.</desc>
         <icon>google2</icon>
-        <pattern regex='1'>google.com/(custom|cse)()</pattern>
+        <pattern regex="1">google.com/(custom|cse)()</pattern>
     </widget>
     <widget>
         <name>Google Site Map</name>
         <desc>Sitemaps are a way to tell Google about pages on your site that it might not otherwise discover.</desc>
         <icon>google</icon>
-        <pattern type='meta'>verify-v1</pattern>
+        <pattern type="meta">verify-v1</pattern>
     </widget>
     <widget>
         <name>Google Maps</name>
@@ -93,7 +94,6 @@
         <icon>pinterest</icon>
         <pattern>pinterest.</pattern>
     </widget>
-
     <widget>
         <name>TypeKit</name>
         <desc>Add and use web fonts the way you want to.</desc>
@@ -104,20 +104,20 @@
         <name>Bing Webmaster Tools</name>
         <desc>Drive more visitors to your site using Bing data on search queries, crawling and search traffic.</desc>
         <icon>bing</icon>
-        <pattern type='meta'>msvalidate.01</pattern>
+        <pattern type="meta">msvalidate.01</pattern>
     </widget>
     <widget>
         <name>Yahoo! Site Explorer</name>
         <desc>Yahoo! service which allowed viewing of information on websites in Yahoo!'s search index.</desc>
         <icon>yahoo</icon>
-        <pattern type='meta'>name="y_key"</pattern>
+        <pattern type="meta">name="y_key"</pattern>
     </widget>
     <widget>
         <name>ShareThis</name>
         <desc>Put sharing to work with innovative sharing tools.</desc>
         <icon>sharethis</icon>
         <pattern>sharethis.com/button</pattern>
-        <pattern type='header'>__unam</pattern>
+        <pattern type="header">__unam</pattern>
     </widget>
     <widget>
         <name>Delicious</name>
@@ -199,25 +199,25 @@
         <name>W3 Total Cache</name>
         <desc>Optimizing WordPress for high traffic and user experience.</desc>
         <icon>w3tc</icon>
-        <pattern type='comment'>w3-edge.com/wordpress-plugins</pattern>
+        <pattern type="comment">w3-edge.com/wordpress-plugins</pattern>
     </widget>
     <widget>
         <name>WP Super Cache</name>
         <desc>A very fast caching engine for WordPress that produces static html files.</desc>
         <icon>wordpress</icon>
-        <pattern type='comment'>by WP-Super-Cache</pattern>
+        <pattern type="comment">by WP-Super-Cache</pattern>
     </widget>
     <widget>
         <name>Alexa Verify</name>
         <desc>Alexa is website ranking service website which will give you the ranking of website.</desc>
         <icon>alexa</icon>
-        <pattern type='meta'>alexaverifyid</pattern>
+        <pattern type="meta">alexaverifyid</pattern>
     </widget>
     <widget>
         <name>MailChimp</name>
         <desc>MailChimp helps you design email newsletters, share them on social networks, integrate with services you already use, and track your results.</desc>
         <icon>mailchimp</icon>
-        <pattern regex='1'>list-manage\d\.com</pattern>
+        <pattern regex="1">list-manage\d\.com</pattern>
     </widget>
     <widget>
         <name>Gravatar</name>
@@ -235,14 +235,14 @@
         <name>IE Pinning</name>
         <desc>With Pinned Sites, you can get to your favorite sites directly from the Windows 7 taskbar.</desc>
         <icon>windows</icon>
-        <pattern type='meta'>name="msapplication-</pattern>
+        <pattern type="meta">name="msapplication-</pattern>
     </widget>
     <widget>
         <name>Janrain</name>
         <desc>User management platform for the social web.</desc>
         <icon>janrain</icon>
-        <pattern type='inline'>window.janrain</pattern>
-        <pattern type='inline'>janrain.settings</pattern>
+        <pattern type="inline">window.janrain</pattern>
+        <pattern type="inline">janrain.settings</pattern>
     </widget>
     <widget>
         <name>Yahoo! Geo Technologies</name>
@@ -254,14 +254,14 @@
         <name>Parse.ly</name>
         <desc>Parse.ly delivers fresh insights to the web's best publisher.</desc>
         <icon>parse.ly</icon>
-        <pattern type='inline'>static.parsely.com/</pattern>
+        <pattern type="inline">static.parsely.com/</pattern>
         <pattern>static.parsely.com/</pattern>
     </widget>
     <widget>
         <name>Yoast</name>
         <desc>WordPress SEO is the most complete WordPress SEO plugin that exists today.</desc>
         <icon>yoast</icon>
-        <pattern type='comment'>yoast.com/wordpress</pattern>
+        <pattern type="comment">yoast.com/wordpress</pattern>
     </widget>
     <widget>
         <name>reCAPTCHA</name>
@@ -301,5 +301,4 @@
         <icon>widget</icon>
         <pattern>tweetmeme.com/</pattern>
     </widget>
-
 </widgets>

@@ -174,7 +174,7 @@
         <icon>tick</icon>
         <pattern type="meta">x-ua-compatible</pattern>
     </meta>
-     <meta>
+    <meta>
         <name>Viewport</name>
         <desc>Changes the logical window size used when displaying a page.</desc>
         <icon>tick</icon>
@@ -199,5 +199,4 @@
         <icon>tick</icon>
         <pattern type="meta">name="googlebot"</pattern>
     </meta>
-
 </meta>

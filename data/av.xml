@@ -4,8 +4,8 @@
         <name>Shockwave/Flash</name>
         <desc>A cross-platform, browser-based application runtime that provides uncompromised viewing of expressive application.</desc>
         <icon>adobe</icon>
-        <pattern type='link'>application/x-shockwave-flash</pattern>
-        <pattern type='inline'>ShockwaveFlash.ShockwaveFlash</pattern>
+        <pattern type="link">application/x-shockwave-flash</pattern>
+        <pattern type="inline">ShockwaveFlash.ShockwaveFlash</pattern>
     </doc>
     <doc>
         <name>YouTube</name>
@@ -25,6 +25,4 @@
         <icon>vimeo</icon>
         <pattern>vimeo.com/video</pattern>
     </doc>
-
 </cdns>
-

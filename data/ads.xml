@@ -40,7 +40,7 @@
         <name>DoubleClick</name>
         <desc>The ad management and ad serving technology foundation for the world's buyers, creators and sellers of digital media.</desc>
         <icon>ad</icon>
-        <pattern regex='1'>doubleclick.(net|com)()/</pattern>
+        <pattern regex="1">doubleclick.(net|com)()/</pattern>
     </ad>
     <ad>
         <name>Google AdSense</name>
@@ -54,7 +54,7 @@
         <name>Google AdSense For Search</name>
         <desc>Combine Google search with AdSense to monetize more web pages.</desc>
         <icon>google</icon>
-        <pattern regex='1'>google.com/.*form=cse-search-box</pattern>
+        <pattern regex="1">google.com/.*form=cse-search-box</pattern>
     </ad>
     <ad>
         <name>Google Ad Partner Services</name>
@@ -82,7 +82,7 @@
     </ad>
     <ad>
         <name>Criterio</name>
-        <desc></desc>
+        <desc/>
         <icon>ad</icon>
         <pattern>criterio.</pattern>
     </ad>
@@ -93,10 +93,10 @@
         <pattern>yieldmanager.com/</pattern>
     </ad>
     <ad>
-       <name>BuySell Ads</name>
-       <desc>One of the largest advertising marketplaces on the Web, serving well over 6 billion ad impressions each month.</desc>
-       <icon>buysellads</icon>
-       <pattern>buysellads.com/</pattern>
+        <name>BuySell Ads</name>
+        <desc>One of the largest advertising marketplaces on the Web, serving well over 6 billion ad impressions each month.</desc>
+        <icon>buysellads</icon>
+        <pattern>buysellads.com/</pattern>
     </ad>
     <ad>
         <name>Linkbucks</name>
@@ -172,10 +172,10 @@
     </ad>
     <ad>
         <name>Skimlinks</name>
-		<desc>Realize a new revenue stream with automated affiliate marketing.</desc>
-		<icon>ad</icon>
-		<pattern>skimresources.com/</pattern>
-	</ad>
+        <desc>Realize a new revenue stream with automated affiliate marketing.</desc>
+        <icon>ad</icon>
+        <pattern>skimresources.com/</pattern>
+    </ad>
     <ad>
         <name>Federated Media Publishing</name>
         <desc>We power the independent web.</desc>
@@ -188,5 +188,4 @@
         <icon>ad</icon>
         <pattern>linksynergy.com/</pattern>
     </ad>
-
 </ads>

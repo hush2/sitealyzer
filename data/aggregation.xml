@@ -4,25 +4,25 @@
         <name>RSS</name>
         <desc>A family of web feed formats used to publish frequently updated works in a standardized format.</desc>
         <icon>rss</icon>
-        <pattern type='link'>application/rss+xml</pattern>
+        <pattern type="link">application/rss+xml</pattern>
     </agg>
     <agg>
         <name>Atom</name>
         <desc>The Atom format was developed as an alternative to RSS.</desc>
         <icon>rss</icon>
-        <pattern type='link'>application/atom+xml</pattern>
+        <pattern type="link">application/atom+xml</pattern>
     </agg>
     <agg>
         <name>RSD</name>
         <desc>Really Simple Discovery (RSD) is an XML format and a publishing convention for making services exposed by blog, or other web software.</desc>
         <icon>rsd</icon>
-        <pattern type='link'>application/rsd+xml</pattern>
+        <pattern type="link">application/rsd+xml</pattern>
     </agg>
     <agg>
         <name>Windows Live Writer</name>
         <desc>Desktop blog-publishing application that is part of the Windows Live range of products.</desc>
         <icon>livewriter</icon>
-        <pattern type='link'>application/wlwmanifest+xml</pattern>
+        <pattern type="link">application/wlwmanifest+xml</pattern>
     </agg>
     <agg>
         <name>FeedBurner</name>
@@ -34,8 +34,8 @@
         <name>Pingback Support</name>
         <desc>Pingback is a method for web authors to request notification when somebody links to one of their documents.</desc>
         <icon>pingback</icon>
-        <pattern type='link'>rel="pingback"</pattern>
-        <pattern type='header'>X-Pingback:</pattern>
+        <pattern type="link">rel="pingback"</pattern>
+        <pattern type="header">X-Pingback:</pattern>
     </agg>
     <agg>
         <name>Dublin Core</name>
@@ -50,5 +50,4 @@
         <pattern>/feedproxy.google.com</pattern>
         <pattern>/feedburner.google.com</pattern>
     </agg>
-    
 </aggs>
